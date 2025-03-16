@@ -1,0 +1,35 @@
+@import "tailwindcss";
+.rubik-distressed-regular {
+    font-family: 'Rubik Distressed', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.popUp{
+    place-self: center;
+    width: 300px;
+    border-radius: 13px;
+    padding: 20px;
+    background-color: #b8b8ff;
+    border-color: aquamarine;
+    box-shadow: 4px 4px 10px aquamarine;
+    font-family: 'Rubik Distressed', sans-serif;
+    font-size: 25px;    
+    display: none; 
+    color: #1174df;   
+}
+
+.popUp.active{
+    display: block;
+}
+
+.popBackground{
+   background-color: rgba(129, 196, 247, 0.39); 
+    display: none;
+
+}
+.popBackground.active{
+    display: block;
+    
+}
